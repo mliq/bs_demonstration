@@ -43,7 +43,7 @@ $(document).ready(function () {
     $("#oranges").append("<br>Price: $<p id='markOr'>" + Market.oranges + "</p>");
     $("#bananas").append("<br>Price: $<p id='markBa'>" + Market.bananas + "</p>");
     $("#pears").append("<br>Price: $<p id='markPe'>" + Market.pears + "</p>");
-    $("#userInfo").append("<h3><p>Budget: " + Person.budget + "</p><div class='progress'><div class='progress-bar progress-bar-success' style='width: 100%'></div></div></h3>");
+    $("#userInfo").append("<h3><p>Budget: " + Person.budget + "</p><div class='progress'><span class='progress-value'>|</span><div class='progress-bar progress-bar-success' style='width: 100%'></div></div></h3>");
 
     setInterval(function () {
         for (var fruit in Market) {
@@ -64,7 +64,7 @@ $(document).ready(function () {
             Person.budget -= Market[this.id];
             Person.budget = Math.round(Person.budget * 100) / 100;
             $("#userInfo").html("<h3><p>Budget: $" + Person.budget + "</p>"
-                + "<div class='progress'><div class='progress-bar progress-bar-success' style='width: " + ((Person.budget / 50)*100) + "%'></div>                </div></h3><h4><p>Apples: " + Person.apples.length + " at an average price of $" + avgArray(Person.apples) + "</p>" + "<p>Oranges: " + Person.oranges.length + " at an average price of $" + avgArray(Person.oranges) + "</p>" + "<p>Bananas: " + Person.bananas.length + " at an average price of $" + avgArray(Person.bananas) + "</p>" + "<p>Pears: " + Person.pears.length + " at an average price of $" + avgArray(Person.pears) + "</p></h4>");
+                + "<div class='progress'><span class='progress-value'>|</span><div class='progress-bar progress-bar-success' style='width: " + ((Person.budget / 50)*50) + "%'></div>                </div></h3><h4><p>Apples: " + Person.apples.length + " at an average price of $" + avgArray(Person.apples) + "</p>" + "<p>Oranges: " + Person.oranges.length + " at an average price of $" + avgArray(Person.oranges) + "</p>" + "<p>Bananas: " + Person.bananas.length + " at an average price of $" + avgArray(Person.bananas) + "</p>" + "<p>Pears: " + Person.pears.length + " at an average price of $" + avgArray(Person.pears) + "</p></h4>");
         }
     });
     $(".sellBtn").on("click", function () {
@@ -76,7 +76,7 @@ $(document).ready(function () {
             Person.budget += Market[fruit];
             Person.budget = Math.round(Person.budget * 100) / 100;
             $("#userInfo").html("<h3><p>Budget: $" + Person.budget + "</p>"
-                + "<div class='progress'><div class='progress-bar progress-bar-success' style='width: " + ((Person.budget / 50)*100) + "%'></div>                </div></h3><h4><p>Apples: " + Person.apples.length + " at an average price of $" + avgArray(Person.apples) + "</p>" + "<p>Oranges: " + Person.oranges.length + " at an average price of $" + avgArray(Person.oranges) + "</p>" + "<p>Bananas: " + Person.bananas.length + " at an average price of $" + avgArray(Person.bananas) + "</p>" + "<p>Pears: " + Person.pears.length + " at an average price of $" + avgArray(Person.pears) + "</p></h3>");
+                + "<div class='progress'><span class='progress-value'>|</span><div class='progress-bar progress-bar-success' style='width: " + ((Person.budget / 50)*50) + "%'></div>                </div></h3><h4><p>Apples: " + Person.apples.length + " at an average price of $" + avgArray(Person.apples) + "</p>" + "<p>Oranges: " + Person.oranges.length + " at an average price of $" + avgArray(Person.oranges) + "</p>" + "<p>Bananas: " + Person.bananas.length + " at an average price of $" + avgArray(Person.bananas) + "</p>" + "<p>Pears: " + Person.pears.length + " at an average price of $" + avgArray(Person.pears) + "</p></h3>");
         }
     });
 });
