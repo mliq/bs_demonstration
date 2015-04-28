@@ -43,7 +43,7 @@ $(document).ready(function () {
     $("#oranges").append("<br>Price: $<p id='markOr'>" + Market.oranges + "</p>");
     $("#bananas").append("<br>Price: $<p id='markBa'>" + Market.bananas + "</p>");
     $("#pears").append("<br>Price: $<p id='markPe'>" + Market.pears + "</p>");
-    $("#userInfo").append("<h3><p>Budget: " + Person.budget + "</p><div class='progress'><span class='progress-value'>|</span><div class='progress-bar progress-bar-success' style='width: 100%'></div></div></h3>");
+    $("#userInfo").append("<h3><p>Budget: " + Person.budget + "</p><div class='progress'><span class='progress-value'>|</span><div class='progress-bar progress-bar-success' style='width: 50%'></div></div></h3>");
 
     setInterval(function () {
         for (var fruit in Market) {
