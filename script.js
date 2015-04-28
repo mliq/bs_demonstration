@@ -39,10 +39,10 @@ function avgArray(array) {
 }
 
 $(document).ready(function () {
-    $("#apples").append("<br>Price: $<p id='markAp'>" + Market.apples + "</p>");
-    $("#oranges").append("<br>Price: $<p id='markOr'>" + Market.oranges + "</p>");
-    $("#bananas").append("<br>Price: $<p id='markBa'>" + Market.bananas + "</p>");
-    $("#pears").append("<br>Price: $<p id='markPe'>" + Market.pears + "</p>");
+    $("#apples").append("<br>Tardigrades: $<span id='markAp'>" + Market.apples + "</span>");
+    $("#oranges").append("<br>Narwhals: $<span id='markOr'>" + Market.oranges + "</span>");
+    $("#bananas").append("<br>Giant Squids: $<span id='markBa'>" + Market.bananas + "</span>");
+    $("#pears").append("<br>Pudus: $<span id='markPe'>" + Market.pears + "</span>");
     $("#userInfo").append("<h3><p>Budget: " + Person.budget + "</p><div class='progress'><span class='progress-value'>|</span><div class='progress-bar progress-bar-success' style='width: 50%'></div></div></h3>");
 
     setInterval(function () {
