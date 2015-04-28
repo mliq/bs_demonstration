@@ -1,5 +1,5 @@
 body {
-    font-family: monospace;
+    /*font-family: monospace;*/
 }
 
 #fruits{
@@ -7,16 +7,16 @@ body {
     margin: 0 10%;
     width: 90%;
     height: 250px;
-    text-align:center;
+    text-align: center;
 }
-.container {
-    background-color: darkgreen;
-    font-size: 18px;
+.fruitContainer {
+    /*background-color: darkgreen;*/
+    /*font-size: 18px;*/
     float:left;
     margin: auto 15px;
     width: 20%;
     border: 1px solid ;
-    text-align: center;
+    /*text-align: center;*/
     /*padding: 1em 0 0 0;*/
 }
 

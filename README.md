@@ -1,4 +1,9 @@
-# Prime Group jQuery Challenge
+# Bootstrap the Fruit Market
+
+1. Add a bootstrap theme
+2. Change the fruits to something else.
+
+# Original Challenge:
 jQuery is great! It allows us to do so many things! You and your group will need to flex everything you know about 
 Javascript and jQuery to tackle this challenge. 
 

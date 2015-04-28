@@ -2,40 +2,46 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Bootstrap Market</title>
 
     <meta name="description" content="Webpage">
-    <link href="stylesheet.css" rel="stylesheet">
 
-    <script src="jquery.min.js"></script>
-    <script src="script.js"></script>
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="stylesheet.css" rel="stylesheet">
 </head>
 
 <body>
+<div class="container-fluid">
 <h1>Fruit Market</h1>
 <div id="fruits">
-    <div class='container' id="appleContainer">
+    <div class='fruitContainer well' id="appleContainer">
         <div class="btn" id="apples"><img src="images/apple.png"></div>
-        <div class="sellBtn" id="sellapples">Sell</div>
+        <div class="btn-danger btn" id="sellapples">Sell</div>
     </div>
 
-    <div class='container' id="orangesContainer">
+    <div class='fruitContainer well' id="orangesContainer">
         <div class="btn" id="oranges"><img src="images/orange.png"></div>
-        <div class="sellBtn" id="selloranges">Sell</div>
+        <div class="btn-danger btn" id="selloranges">Sell</div>
     </div>
 
-    <div class='container' id="bananaContainer">
+    <div class='fruitContainer well' id="bananaContainer">
         <div class="btn" id="bananas"><img src="images/bananas.png"></div>
-        <div class="sellBtn" id="sellbananas">Sell</div>
+        <div class="btn-danger btn" id="sellbananas">Sell</div>
     </div>
 
-    <div class='container' id="pearContainer">
+    <div class='fruitContainer well' id="pearContainer">
         <div class="btn" id="pears"><img src="images/pear.png"></div>
-        <div class="sellBtn" id="sellpears">Sell</div>
+        <div class="btn-danger btn" id="sellpears">Sell</div>
     </div>
 
 
 </div>
 <div id="userInfo"></div>
+</div>
+<!-- SCRIPTS -->
+<script src="jquery.min.js"></script>
+<script src="bootstrap.min.js"></script>
+<script src="script.js"></script>
+<!-- END SCRIPTS -->
 </body>
 </html>
