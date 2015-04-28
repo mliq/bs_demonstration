@@ -3,16 +3,16 @@ body {
 }
 
 #fruits{
-    float:left;
-    margin: 0 10%;
-    width: 90%;
-    height: 250px;
+    /*float:left;*/
+    /*margin: 0 10%;*/
+    /*width: 90%;*/
+    /*height: 250px;*/
     text-align: center;
 }
 .fruitContainer {
     /*background-color: darkgreen;*/
     /*font-size: 18px;*/
-    float:left;
+    /*float:left;*/
     margin: auto 15px;
     width: 20%;
     border: 1px solid ;
@@ -65,4 +65,9 @@ h4 {
     right:0;
     left:0;
 
+}
+
+img {
+    width: 150px;
+    height: 150px;
 }
