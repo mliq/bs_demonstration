@@ -45,7 +45,8 @@ img {
 }
 
 .badge {
-    font-size: 14px;
+    font-size: 17px;
+    margin: 0 0 0 5px;
 }
 
 .titleImg {
@@ -67,4 +68,8 @@ img {
     padding: 50px;
     /*display: inline;*/
     width: 700px;
+}
+
+body {
+    background-image: url("small_steps.png");
 }
