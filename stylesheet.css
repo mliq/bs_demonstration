@@ -23,12 +23,13 @@ img {
     width: 150px;
     height: 150px;
     border-radius: 25px;
-    display:inline;
+    display: inline;
 }
 
 .btn-primary {
     margin: 9px 0 0;
     border-radius: 10px;
+    padding: 10px 20px;
 }
 
 .row {
