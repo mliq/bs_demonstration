@@ -3,7 +3,6 @@
 <head>
     <meta charset="utf-8">
     <title>Wunderkammer</title>
-
     <meta name="description" content="Webpage">
 
     <link href="bootstrap.min.css" rel="stylesheet">
@@ -11,15 +10,19 @@
 </head>
 
 <body>
-<h1>Wunderkammer</h1>
-
+<div class="titleBlock">
+    <h1 class="title">Wunderkammer</h1>
+    <!--<img class='center-block titleImg' src="OleWorm.jpg">-->
+</div>
 <div class="row">
     <div class="col-sm-3 col-xs-6">
         <div class="panel panel-primary" id="appleContainer">
             <div class="panel-heading">
                 <h3 class="panel-title" id="apples"></h3>
             </div>
-            <div class="panel-body btn myBtn"><img id='apples' class='myBtn' src="tardigrade.jpg"><br><button type="button" class="btn-lg btn-info btn sellBtn" id="sellapples">Sell</button></div>
+            <div class="panel-body btn myBtn"><img id='apples' class='myBtn' src="tardigrade.jpg"><br>
+                <button type="button" class="btn-lg btn-info btn sellBtn" id="sellapples">Sell</button>
+            </div>
         </div>
     </div>
     <div class="col-sm-3 col-xs-6">
@@ -27,7 +30,10 @@
             <div class="panel-heading">
                 <h3 class="panel-title" id="oranges"></h3>
             </div>
-            <div class="panel-body btn"><img class='myBtn' id="oranges" src="narwhalLightsaber.jpg"><br><div class="btn-lg btn-info btn sellBtn" id="selloranges">Sell</div></div>
+            <div class="panel-body btn"><img class='myBtn' id="oranges" src="narwhalLightsaber.jpg"><br>
+
+                <div class="btn-lg btn-info btn sellBtn" id="selloranges">Sell</div>
+            </div>
         </div>
     </div>
     <div class="col-sm-3 col-xs-6">
@@ -35,7 +41,10 @@
             <div class="panel-heading">
                 <h3 class="panel-title" id="bananas"></h3>
             </div>
-            <div class="panel-body btn myBtn"><img id='bananas' class='myBtn' src="giantSquid.png"><br><div class="btn-lg btn-info btn sellBtn" id="sellbananas">Sell</div></div>
+            <div class="panel-body btn myBtn"><img id='bananas' class='myBtn' src="giantSquid.png"><br>
+
+                <div class="btn-lg btn-info btn sellBtn" id="sellbananas">Sell</div>
+            </div>
         </div>
     </div>
     <div class="col-sm-3 col-xs-6">
@@ -43,29 +52,31 @@
             <div class="panel-heading">
                 <h3 class="panel-title" id="pears"></h3>
             </div>
-            <div class="panel-body btn myBtn"><img id='pears' class='myBtn' src="pudu.jpg"><br><button class="btn-lg btn-info btn sellBtn" id="sellpears">Sell</button></div>
+            <div class="panel-body btn myBtn"><img id='pears' class='myBtn' src="pudu.jpg"><br>
+                <button class="btn-lg btn-info btn sellBtn" id="sellpears">Sell</button>
+            </div>
         </div>
     </div>
     <!--<div id="fruits" class="row">-->
-        <!--<div class='col-md-3 col-sm-3 col-xs-6 col-lg-3' id="appleContainer">-->
-            <!--<div class="btn myBtn center-block" id="apples"><img src="tardigrade.jpg"></div>-->
-            <!--<button type="button" class="btn-group btn-info btn sellBtn center-block" id="sellapples">Sell</button>-->
-        <!--</div>-->
+    <!--<div class='col-md-3 col-sm-3 col-xs-6 col-lg-3' id="appleContainer">-->
+    <!--<div class="btn myBtn center-block" id="apples"><img src="tardigrade.jpg"></div>-->
+    <!--<button type="button" class="btn-group btn-info btn sellBtn center-block" id="sellapples">Sell</button>-->
+    <!--</div>-->
 
-        <!--<div class='well col-md-3 col-sm-3 col-xs-6 col-lg-3' id="orangesContainer">-->
-            <!--<div class="btn btn-primary myBtn center-block" id="oranges"><img src="narwhalLightsaber.jpg"></div>-->
-            <!--<div class="btn-danger btn sellBtn center-block" id="selloranges">Sell</div>-->
-        <!--</div>-->
+    <!--<div class='well col-md-3 col-sm-3 col-xs-6 col-lg-3' id="orangesContainer">-->
+    <!--<div class="btn btn-primary myBtn center-block" id="oranges"><img src="narwhalLightsaber.jpg"></div>-->
+    <!--<div class="btn-danger btn sellBtn center-block" id="selloranges">Sell</div>-->
+    <!--</div>-->
 
-        <!--<div class='well col-md-3 col-sm-3 col-xs-6 col-lg-3' id="bananaContainer">-->
-            <!--<div class="btn btn-primary myBtn center-block" id="bananas"><img src="giantSquid.png"></div>-->
-            <!--<div class="btn-danger btn sellBtn btn center-block" id="sellbananas">Sell</div>-->
-        <!--</div>-->
+    <!--<div class='well col-md-3 col-sm-3 col-xs-6 col-lg-3' id="bananaContainer">-->
+    <!--<div class="btn btn-primary myBtn center-block" id="bananas"><img src="giantSquid.png"></div>-->
+    <!--<div class="btn-danger btn sellBtn btn center-block" id="sellbananas">Sell</div>-->
+    <!--</div>-->
 
-        <!--<div class='well col-md-3 col-sm-3 col-xs-6 col-lg-3' id="pearContainer">-->
-            <!--<div class="btn btn-primary myBtn center-block" id="pears"><img src="pudu.jpg"></div>-->
-            <!--<div class="btn-danger btn sellBtn center-block" id="sellpears">Sell</div>-->
-        <!--</div>-->
+    <!--<div class='well col-md-3 col-sm-3 col-xs-6 col-lg-3' id="pearContainer">-->
+    <!--<div class="btn btn-primary myBtn center-block" id="pears"><img src="pudu.jpg"></div>-->
+    <!--<div class="btn-danger btn sellBtn center-block" id="sellpears">Sell</div>-->
+    <!--</div>-->
     <!--</div>-->
     <div class="row center-block">
         <div id="userInfo"
