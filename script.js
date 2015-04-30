@@ -39,10 +39,10 @@ function avgArray(array) {
 }
 
 $(document).ready(function () {
-    $("#apples").append("<h3 class='panel-title'>Tardigrades: <span class='badge'>$<span id='markAp'>" + Market.apples + "</span></span></h3>");
-    $("#oranges").append("<br>Narwhals: $<span id='markOr'>" + Market.oranges + "</span>");
-    $("#bananas").append("<br>Giant Squids: $<span id='markBa'>" + Market.bananas + "</span>");
-    $("#pears").append("<br>Pudus: $<span id='markPe'>" + Market.pears + "</span>");
+    $("#apples").append("Tardigrades <span class='badge'>$<span id='markAp'>" + Market.apples + "</span></span>");
+    $("#oranges").append("Narwhals <span class='badge'>$<span id='markOr'>" + Market.oranges + "</span></span>");
+    $("#bananas").append("Giant Squids <span class='badge'>$<span id='markBa'>" + Market.bananas + "</span></span>");
+    $("#pears").append("Pudus <span class='badge'>$<span id='markPe'>" + Market.pears + "</span></span>");
     $("#userInfo").append("<h3><p>Budget: " + Person.budget + "</p><div class='progress'><span class='progress-value'>|</span><div class='progress-bar progress-bar-success' style='width: 50%'></div></div></h3>");
 
     setInterval(function () {
