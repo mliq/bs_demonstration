@@ -39,7 +39,7 @@ function avgArray(array) {
 }
 
 $(document).ready(function () {
-    $("#apples").append("<br>Tardigrades: $<span id='markAp'>" + Market.apples + "</span>");
+    $("#apples").append("<h3 class='panel-title'>Tardigrades: <span class='badge'>$<span id='markAp'>" + Market.apples + "</span></span></h3>");
     $("#oranges").append("<br>Narwhals: $<span id='markOr'>" + Market.oranges + "</span>");
     $("#bananas").append("<br>Giant Squids: $<span id='markBa'>" + Market.bananas + "</span>");
     $("#pears").append("<br>Pudus: $<span id='markPe'>" + Market.pears + "</span>");

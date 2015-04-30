@@ -1,61 +1,12 @@
-/*body {*/
-    /*/!*font-family: monospace;*!/*/
-/*}*/
-
-/*#fruits{*/
-    /*/!*float:left;*!/*/
-    /*/!*margin: 0 10%;*!/*/
-    /*/!*width: 90%;*!/*/
-    /*/!*height: 250px;*!/*/
-    /*/!*text-align: center;*!/*/
-/*}*/
-/*.fruitContainer {*/
-    /*background-color: darkgreen;*/
-    /*font-size: 18px;*/
-    /*float:left;*/
-    /*margin: auto 15px;*/
-    /*width: 20%;*/
-    /*border: 1px solid ;*/
-    /*text-align: center;*/
-    /*padding: 1em 0 0 0;*/
-/*}*/
-
-/*.sellBtn {*/
-    /*font-size: 13px;*/
-    /*background-color: orangered;*/
-    /*margin: 10px auto;*/
-    /*/!*text-align: center;*!/*/
-    /*border: 1px solid;*/
-    /*width: 65%;*/
-    /*height: 30px;*/
-    /*line-height: 30px;*/
-/*}*/
-
-/*#userInfo {*/
-    /*float:left;*/
-    /*font-size: 18px;*/
-    /*width: 60%;*/
-    /*margin: auto 20%;*/
-    /*border: 1px solid;*/
-    /*text-align: center;*/
-
-/*}*/
-
-/*#container {*/
-
-    /*margin: 0 auto 0 auto;*/
-    /*width: 80%;*/
-/*}*/
-
 h1 {
     text-align: center;
 }
-h3 {
-    margin: -10px;
-}
-h4 {
-    margin: 30px 0 0 0;
-}
+/*h3 {*/
+    /*margin: -10px;*/
+/*}*/
+/*h4 {*/
+    /*margin: 30px 0 0 0;*/
+/*}*/
 
 .progress-value {
     color: dodgerblue;
@@ -70,39 +21,11 @@ h4 {
 img {
     width: 150px;
     height: 150px;
+    border-radius: 25px;
+    display:inline;
 }
 
-.myBtn {
-    /*margin: 0 auto;*/
-}
-
-/*#apples{*/
-    /*color: #333;*/
-    /*background-color: #8CD1D0;*/
-    /*font-size: 20px;*/
-    /*font-face: bold;*/
-/*}*/
-
-/*#oranges{*/
-    /*color: #333;*/
-    /*background-color: #8CD1D0;*/
-    /*font-size: 20px;*/
-    /*font-face: bold;*/
-/*}*/
-
-/*#bananas{*/
-    /*color: #333;*/
-    /*background-color: #8CD1D0;*/
-    /*font-size: 20px;*/
-    /*font-face: bold;*/
-/*}*/
-/*#pears{*/
-    /*color: #333;*/
-    /*background-color: #8CD1D0;*/
-    /*font-size: 20px;*/
-    /*font-face: bold;*/
-/*}*/
-
-.progress-bar {
-    /*background-color: #1c59aa;*/
+.row {
+    margin: 0 2px;
+    text-align: center;
 }
