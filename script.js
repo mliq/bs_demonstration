@@ -38,11 +38,16 @@ function avgArray(array) {
     return Math.round((sum / array.length) * 100) / 100;
 }
 
+function pad (str, max) {
+    str = str.toString();
+    return str.length < max ? pad(str + "0" , max) : str;
+}
+
 $(document).ready(function () {
-    $("#apples").append("Tardigrades <span class='badge'>$<span id='markAp'>" + Market.apples + "</span></span>");
-    $("#oranges").append("Narwhals <span class='badge'>$<span id='markOr'>" + Market.oranges + "</span></span>");
-    $("#bananas").append("Giant Squids <span class='badge'>$<span id='markBa'>" + Market.bananas + "</span></span>");
-    $("#pears").append("Pudus <span class='badge'>$<span id='markPe'>" + Market.pears + "</span></span>");
+    $("#apples").append("Tardigrades <span class='badge'>$<span id='markAp'>" + pad(Market.apples,4) + "</span></span>");
+    $("#oranges").append("Narwhals <span class='badge'>$<span id='markOr'>" + pad(Market.oranges,4) + "</span></span>");
+    $("#bananas").append("Giant Squids <span class='badge'>$<span id='markBa'>" + pad(Market.bananas,4) + "</span></span>");
+    $("#pears").append("Pudus <span class='badge'>$<span id='markPe'>" + pad(Market.pears,4) + "</span></span>");
     $("#userInfo").append("<h3><p>Budget: $" + Person.budget + "</p><div class='progress'><span class='progress-value'>|</span><div class='progress-bar progress-bar-success' style='width: 50%'></div></div></h3>");
 
     setInterval(function () {
